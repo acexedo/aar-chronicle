@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CK2 AAR Chronicle</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CK2 AAR Chronicle</h1>
+    </header>
+    <main>
+      <div class="container">
+        <form id="chapterForm" enctype="multipart/form-data">
+          <div id="chapterContent">
+            <div class="title-block">
+              <input type="text" name="title" placeholder="Chapter Title" />
+              <textarea
+                name="narrative"
+                placeholder="Write your narrative here..."
+              ></textarea>
+              <button type="button" class="delete-block">Delete</button>
+            </div>
+          </div>
+          <div class="button-container">
+            <button type="button" id="addTitleBlock">Add Title Block</button>
+            <button type="button" id="addTextBlock">Add Text Block</button>
+            <button type="button" id="addImageBlock">Add Image Block</button>
+            <button type="button" id="saveButton">Save</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
